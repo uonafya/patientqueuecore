@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/patientqueue.iml" filepath="$PROJECT_DIR$/patientqueue.iml" />
+      <module fileurl="file://$PROJECT_DIR$/api/patientqueue-api.iml" filepath="$PROJECT_DIR$/api/patientqueue-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/omod/patientqueue-omod.iml" filepath="$PROJECT_DIR$/omod/patientqueue-omod.iml" />
+    </modules>
+  </component>
+</project>
