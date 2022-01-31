@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE module PUBLIC "-//OpenMRS//DTD OpenMRS Config 1.2//EN" "http://resources.openmrs.org/doctype/config-1.2.dtd">
 
 <module configVersion="1.2">
 	
@@ -21,7 +20,7 @@
 	<!-- <updateURL>https://dev.openmrs.org/modules/download/@MODULE_ID@/update.rdf</updateURL> -->
 	<!-- /Base Module Properties -->
 	
-	<require_version>1.9.7</require_version>
+	<require_version>${openMRSVersion}</require_version>
 	
 	<!-- Extensions 
 	<extension>
@@ -33,8 +32,10 @@
 		<point>org.openmrs.gutter.tools</point>
 		<class>@MODULE_PACKAGE@.extension.html.PatientQueueHeader</class>
 	</extension>
-	
-	
+
+	<aware_of_modules>
+		<aware_of_module>org.openmrs.module.legacyui</aware_of_module>
+	</aware_of_modules>
 	<!-- AOP
 	<advice>
 		<point>org.openmrs.api.FormService</point>

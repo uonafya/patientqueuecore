@@ -72,13 +72,6 @@ public class LogOpdPatientQeueTask  extends AbstractTask {
 		}
 		
 	}
-	
-	@Override
-	protected void authenticate() {
-		// TODO Auto-generated method stub
-		super.authenticate();
-	}
-
 	@Override
 	public void shutdown() {
 		log.info("Shutdown LogOpdPatientQeueTask");
